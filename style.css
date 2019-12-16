@@ -1,0 +1,70 @@
+body{
+background-image: url(./anigif_sub-buzz-14504-1503004764-23.gif);
+background-size: 130em 100em;
+background-repeat: no-repeat;
+font-family: fantasy;
+}
+
+.container {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.result{
+    font-size: 40px;
+}
+
+#date{
+    font-size: 20px;    
+    padding-left: 2em;
+    padding-right: 2em;
+    color: brown;
+}
+
+.container .btn-save {
+  font-family: fantasy;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  left: 5px;
+  text-align: center;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.container .btn-save:hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-update {
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-family: fantasy;
+  }
+
+.btn-update:hover {
+  background-color: black;
+  color: white;
+}
+
+.buttonDiv {
+  padding-top: 1em;
+}

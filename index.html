@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Horoscope</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Hitta Ditt Horoskop</h1>
+            <input id="date" type="date">
+        </div>
+        <div>
+            <div>
+                <h2 id="resultText" class="result"></h2>
+            </div>
+            <div>
+                <button id="saveHoroskops" onclick="send" class="btn-save"> Hitta Horoskops </button>
+            </div>
+            <div class="buttonDiv"> 
+                <button id="updateHoroskops" onclick="update" class="btn-update"> Uppdatering </button>
+                <button id="deleteResult" onclick="deleteResult" class="btn-update">Radera </button>
+
+            </div>
+        </div>
+</body>
+
+</html>
